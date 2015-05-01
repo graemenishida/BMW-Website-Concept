@@ -1,0 +1,761 @@
+	article,aside,details,figcaption,figure,footer,header,hgroup,nav,section,summary{display:block;}audio,canvas,video{display:inline-block;}audio:not([controls]){display:none;height:0;}[hidden]{display:none;}html{font-family:sans-serif;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;}a:focus{outline:thin dotted;}a:active,a:hover{outline:0;}h1{font-size:2em;}abbr[title]{border-bottom:1px dotted;}b,strong{font-weight:700;}dfn{font-style:italic;}mark{background:#ff0;color:#000;}code,kbd,pre,samp{font-family:monospace, serif;font-size:1em;}pre{white-space:pre-wrap;word-wrap:break-word;}q{quotes:\201C \201D \2018 \2019;}small{font-size:80%;}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline;}sup{top:-.5em;}sub{bottom:-.25em;}img{border:0;}svg:not(:root){overflow:hidden;}fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em;}button,input,select,textarea{font-family:inherit;font-size:100%;margin:0;}button,input{line-height:normal;}button,html input[type=button],/* 1 */
+	input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}button[disabled],input[disabled]{cursor:default;}input[type=checkbox],input[type=radio]{box-sizing:border-box;padding:0;}input[type=search]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box;}input[type=search]::-webkit-search-cancel-button,input[type=search]::-webkit-search-decoration{-webkit-appearance:none;}textarea{overflow:auto;vertical-align:top;}table{border-collapse:collapse;border-spacing:0;}body,figure{margin:0;}legend,button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0;}
+	
+	.clearfix:after {visibility: hidden; display: block; font-size: 0; content: " "; clear: both; height: 0; }
+	
+	* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+/*CSS For Home page starts here*/
+ body{
+ 	font-family: Fira Sans;
+ 	font-size: 1em;
+ }
+
+ .wrapper{
+ 	width: 1100px;
+ 	margin: 0 auto;
+ }
+
+ h1{
+ 	font-family: Fira Sans;
+ 	font-weight: 700;
+ 	font-size: 60px;
+ 	text-align: center;
+ 	color: rgb(93, 98, 107);
+ 	margin-bottom: 0;
+ }
+
+  h2{
+ 	color: white;
+ 	text-align: center;
+ 	font-size: 50px;
+ 	margin: 0 auto;
+ }
+
+ h2.heroImage{
+ 	margin-top: -200px;
+ 	margin-bottom: 0;
+ }
+
+
+ h3{
+ 	text-align: center;
+ 	font-size: 32px;
+ 	font-weight: 500;
+ 	color: white;
+ 	margin-bottom: 2.5%;
+ }
+
+ h4{
+ 	font-size: 25px;
+ 	color: #323232;
+ 	font-weight: 400;
+ 	text-align: center;
+ 	margin: 0 auto;
+ }
+
+ h5{
+ 	font-size: 16px;
+ }
+
+ .logo{
+ 	margin-left: 45%;
+
+ }
+
+ .nav{
+ 	background: white;
+ 	margin: 0 auto;
+ 	padding: 1% 2%;
+ 	position: fixed;
+ 	z-index: 1;
+ 	width: 100%;
+ 	top: 0;
+ 	box-shadow: 0 2px 2px #A0A6B2;
+ }
+
+ .twitter-follow-button{
+ 	float: right;
+ 	margin-top: 2%;
+ }
+
+.nav ul{
+ 	margin: 0;
+	padding: 0;
+	list-style: none;
+	display: none;
+ }
+
+ .nav ul li{
+ 	text-align: center;
+	padding: 10px 0;
+	border-top: 1px solid #2892D0;
+ }
+
+ .nav ul li a{
+ 	color: black;
+ 	text-decoration: none;
+ 	transition:all 0.5s;
+ }
+
+ .nav ul li a:hover{
+ 	color: #2892D0;
+ }
+
+ .nav ul li:last-child{
+		border-bottom: 1px solid #2892D0;
+}
+
+ .learnMore{
+ 	border: 2px solid white;
+ 	text-align: center;
+ 	color: white;
+ 	text-decoration: none;
+ 	padding: 1% 4%;
+ 	text-decoration: none;
+ 	margin-left: 43%;
+ 	border-radius: 45px;
+ 	transition:all 0.5s;
+ }
+
+  .learnMoreX5{
+ 	border: 2px solid white;
+ 	text-align: center;
+ 	color: white;
+ 	text-decoration: none;
+ 	padding: 1% 4%;
+ 	text-decoration: none;
+ 	margin-left: 38%;
+ 	border-radius: 45px;
+ 	transition:all 0.5s;
+ }
+
+ .shopButton{
+ 	border: 2px solid white;
+ 	text-align: center;
+ 	color: white;
+ 	text-decoration: none;
+ 	padding: 1% 4%;
+ 	text-decoration: none;
+ 	margin-left: 40%;
+ 	border-radius: 45px;
+ 	transition:all 0.5s;
+ }
+
+  .shopButton:hover{
+ 	color: #554E44;
+ 	background: white;
+ }
+
+ .learnMore:hover{
+ 	color: black;
+ 	background: white;
+ }
+
+  .learnMoreX5:hover{
+ 	color: #335CAC;
+ 	background: white;
+ }
+
+ i.fa{
+ 	font-size: 2em;
+ }
+
+ .header .galleryItem{
+ 	margin-top: 5.5%;
+ 	padding-bottom: 17%;
+ }
+
+ .galleryItem h1{
+ 	margin-top: -35.5%;
+ 	text-transform: uppercase;
+ 	color: white;
+ }
+
+ .galleryItem h2{
+ 	margin-top: -30.5%;
+ 	margin-bottom: 2.5%;
+ 	text-transform: uppercase;
+ 	padding: 0 23%;
+ }
+
+ .galleryContainer{
+ 	margin: 1% 0;
+ }
+
+ .seeAll{
+ 	color: #2779AB;
+ 	margin-left: 45%;
+ 	text-decoration: none;
+ }
+
+ .bmwStories{
+ 	background-image: url(images/section1.jpg);
+ 	background-size: cover;
+ 	width: 50%;
+ 	height: 550px;
+ 	margin-top: 1.5%;
+ 	margin-bottom: 0;
+ 	float: left;
+ }
+
+ .bmwStories h2{
+ 	margin-top: 10%;
+ }
+
+ .bmwStories p{
+ 	color: white;
+ 	text-align: center;
+ 	margin-bottom: 4%;
+ }
+
+ .discoverMore{
+ 	margin-left: 40%;
+ 	border: 2px solid white;
+ 	padding: 1% 2.5%;
+ 	border-radius: 20px;
+ 	color: white;
+ 	text-decoration: none;
+ 	transition:all 0.5s;
+ }
+
+ .discoverMore:hover{
+ 	color: #95080F;
+ 	background: white;
+ }
+
+
+ .dreamCar{
+ 	background-image: url(images/section2.jpg);
+ 	background-size: cover;
+ 	width: 50%;
+ 	height: 550px;
+ 	margin-top: 1.5%;
+ 	float: left;
+ }
+
+ .dreamCar h2{
+ 	margin: 10% 0 5%;
+ }
+
+ .dreamCar ul{
+ 	margin-bottom: 4%;
+ 	text-align: center;
+ }
+
+ .dreamCar li{
+	display: inline;
+ }
+
+ .dreamCar li a{
+	color: white;
+	text-decoration: none;
+	margin: 1%;
+ }
+
+ .startButton{
+ 	padding: 1% 10%;
+ 	border-radius: 20px;
+ 	margin-left: 40%;
+ 	border: 2px solid white;
+ 	color: white;
+ 	text-decoration: none;
+ 	transition:all 0.5s;
+ }
+
+ .startButton:hover{
+ 	color: #323232;
+ 	background: white;
+ }
+
+ .bmwX5{
+ 	background-image: url(images/section3.jpg);
+ 	background-repeat: no-repeat;
+ 	background-size: cover;
+ 	width: 50%;
+ 	height: 550px;
+ 	float: left;
+ 	clear: both;
+ }
+
+ .bmwX5 h2{
+ 	margin: 10% 0 5%;
+ }
+
+ .shop{
+ 	background-image: url(images/section4.jpg);
+ 	background-repeat: no-repeat;
+ 	background-size: cover;
+ 	width: 50%;
+ 	float: left;
+ 	height: 550px;
+ }
+
+ .shop h2{
+ 	margin-top: 10%;
+ }
+
+ .shop h3{
+ 	margin: 0 auto;
+ }
+
+ .shop p{
+ 	color: white;
+ 	padding: 0 10%;
+ 	margin-bottom: 5%;
+ }
+
+ .i3{
+ 	background-image: url(images/bmw-i3.jpg);
+ 	background-repeat: no-repeat;
+ 	background-size: cover;
+ 	height: 755px;
+ 	clear: both;
+ 	margin: 0 auto;
+ }
+
+ .i3 h2{
+ 	color: #323232;
+ }
+
+ .i3 h3{
+ 	color: #323232;
+ }
+
+ .learnMoreI3{
+ 	border: 2px solid #323232;
+ 	text-align: center;
+ 	color: #323232;
+ 	padding: 1% 4%;
+ 	text-decoration: none;
+ 	margin-left: 42%;
+ 	border-radius: 45px;
+ 	transition:all 0.5s;
+ }
+
+ .learnMoreI3:hover{
+ 	color: #F6F2F3;
+ 	background: #323232;
+ }
+
+ .bmwDriver{
+ 	background: #2779AB;
+ 	padding-top: 0.5%;
+ }
+
+ .bmwDriverText{
+ 	float: left;
+ 	width: 10%;
+ }
+
+  .bmwDriverText h3{
+ 	margin: 0 auto;
+ 	color: white;
+ 	font-weight: 500;
+ 	line-height: 32px;
+ 	text-align: left;
+ 	text-transform: uppercase;
+ }
+
+ .bmwDriversIcons{
+ 	width: 100%;
+ 	margin-top: 2.55%;
+ }
+
+ .driverIcon{
+ 	margin-left: 10%;
+ 	float: left;
+ 	text-align: center;
+ 	color: white;
+ }
+
+ .driverIcon a{
+ 	color: white;
+ }
+
+ .feature{
+ 	background: #9598A0;
+ }
+
+ .feature h2{
+	padding-top: 3%;
+ }
+
+.featureSection{
+	width: 32%;
+	background: white;
+	float: left;
+	margin: 1.5% 0.6% 5.5%;
+	box-shadow: 4px 4px 3px grey;
+	padding: 1% 1% 5% 1%;
+}
+
+.featureSection h3{
+	color: #2779AB;
+	text-transform: uppercase;
+	margin-bottom: 5%;
+
+}
+
+.featureSection p{
+	text-align: center;
+	margin-bottom: 10%;
+}
+
+.learnMoreFeature{
+	border: 2px solid #2779AB;
+ 	text-align: center;
+ 	color: #2779AB;
+ 	padding: 2% 4%;
+ 	text-decoration: none;
+ 	margin-left: 32%;
+ 	border-radius: 45px;
+ 	transition:all 0.5s;
+}
+
+.learnMoreFeature:hover{
+	color: white;
+	background: #2779AB;
+}
+
+.contact h3{
+	text-align: center;
+	margin: 0 auto;
+	/*padding-top: 25px;*/
+	margin-bottom: 25px;
+	font-family: Fira Sans, Helvetica, Arial, sans-serif;
+	font-size: 30px;
+}
+.contact{
+	text-align: center;
+	padding: 2% 0;
+	background: #216C9A;
+	width: 100%;
+	color: white;
+}
+
+input.submitButton{
+	border: 2px solid white;
+	background: #216C9A;
+	color: white;
+	padding: 0.25% 4%;
+	transition:all 0.5s;
+	text-transform: capitalize;
+	border-radius: 45px;
+}
+
+input.submitButton:hover{
+	background: white;
+	color: #216C9A;
+}
+
+.register a{
+	color: white;
+}
+
+.footer{
+	background: white;
+}
+
+.footer p{
+	margin-top: 4%;
+	color: #9A9FAB;
+	float: left;
+}
+
+.socialMedia{
+	float: right;
+	margin-top: 4%;
+}
+/*CSS For Home page ends here*/
+
+/*CSS For Design page starts here*/
+
+.designHeader h3{
+	color: #2779AB;
+	margin: 0 0 2.5% 0;
+}
+
+.designVideo h5{
+	text-align: center;
+}
+
+.characteristics h2{
+	color: #5D626B;
+	margin-top: 5%;
+}
+
+.characteristics h5{
+	text-align: center;
+}
+
+/*CSS For Design page ends here*/
+
+
+/*Media queries start here*/
+
+@media (max-width: 1024px){
+	.wrapper{
+		width: 1000px
+	}
+
+	.driverIcon{
+		margin-left: 9%;
+	}
+
+	.shopButton{
+		margin-left: 35%;
+	}
+
+	.featureSection img{
+		width: 99%;
+	}
+	.twitter-follow-button{
+		margin-right: 2%;
+	}
+
+	h2{
+		font-size: 40px;
+	}
+
+	.learnMoreOther{
+		margin-left: 43%;
+	}
+
+	.dreamCar li {
+		padding: 0;
+	}
+
+	.i3{
+		height: 0;
+		padding-bottom: 45%;
+	}
+
+	.i3 h3{
+		margin: 0 0 2% 0;
+	}
+}
+
+@media (max-width: 940px){
+	.wrapper{
+		width: 900px;
+	}
+
+	h1{
+		font-size: 50px;
+	}
+
+	h2{
+		font-size: 37px;
+	}
+
+	.learnMoreOther{
+		margin-left: 43%;
+	}
+
+	h3{
+		margin: 0 0 1% 0;
+	}
+
+	.i3{
+		padding-bottom: 45%;
+		height: 0;
+	}
+
+	.driverIcon {
+  		margin-left: 8%;
+  	}
+
+  	.bmwDriver{
+  		padding-bottom: 0;
+
+  	}
+}
+
+@media (max-width: 768px){
+
+	.wrapper{
+		width: 750px;
+	}
+
+	h1{
+		font-size: 55px;
+		padding: 0 30%;
+	}
+
+	.galleryItem h2{
+		font-size: 45px;
+		padding: 0 30%;
+	}
+
+	.learnMoreX5{
+		margin-left: 40%;
+	}
+
+	.shopButton{
+		margin-left: 40%;
+	}
+
+	/*.learnMoreOther{
+		margin-left: 43%;
+	}*/
+
+	.driverIcon{
+		margin-left: 8%;
+	}
+
+	.i3{
+		height: 0;
+		padding-bottom: 60%;
+	}
+
+	.i3 h3{
+		margin-bottom: 2%;
+		margin-top: 0%;
+	}
+
+	.featureSection img{
+		width: 99%;
+	}
+
+	.bmwStories, .dreamCar, .bmwX5, .shop{
+		width: 100%;
+		margin: 0 auto;
+	}
+
+	.bmwDriverText h3{
+		font-size: 25px;
+	}
+
+	.driverIcon{
+		margin-left: 6%;
+	}
+	
+}
+
+@media (max-width: 400px) {
+
+	.wrapper{
+		width: 320px;
+	}
+
+	.logo{
+		margin-left: 33%;
+	}
+
+
+	.seeAll{
+		margin-left: 38%;
+	}
+
+	.galleryItem h1{
+		 margin-top: -35.5%
+	}
+
+	h1{
+		font-size: 30px;
+		padding-left: 40%;
+		padding-right: 40%;
+	}
+
+	.galleryItem h2{
+		font-size: 25px;
+		padding: 0 40%;
+	}
+
+	/*.learnMoreOther{
+		margin-left: 43%;
+	}*/
+
+	.bmwStories, .dreamCar, .bmwX5, .shop{
+		height: 0;
+		padding-bottom: 90%;
+		width: 100%;
+		margin: 0 auto;
+	}
+
+	.discoverMore{
+		margin-left: 35%;
+	}
+
+	.startButton{
+		margin-left: 38%;
+	}
+
+	.shopButton{
+		margin-left: 32%;
+	}
+
+	.dreamCar h2{
+		margin-top: 5%;
+		font-size: 30px;
+	}
+
+	.bmwStories h2{
+		margin-top: 5%;
+	}
+
+	.dreamCar ul{
+		margin-bottom: 6%;
+		
+	}
+
+	.learnMoreX5{
+		margin-left: 35%;
+	}
+
+	.i3{
+		height: 0;
+		padding-bottom: 62%;
+	}
+
+	.i3 h2{
+		font-size: 25px;
+	}
+
+	.i3 h3{
+		margin-top: 0;
+		margin-bottom: 35%;
+		font-size: 24px;
+	}
+
+	.learnMoreI3{
+		  margin-left: 35%;
+	}
+
+	.bmwDriver{
+		padding-bottom: 20%;
+	}
+
+	.bmwDriverText {
+  		float: left;
+  		width: 100%;
+  		clear: both;
+  	}
+
+	.bmwDriverText h3 {
+		width: 100%;
+		text-align: center;
+		font-size: 40px;
+		margin-bottom: 5%;
+	}
+
+	.driverIcon{
+		float: none;
+		margin-top: 20%;
+	}
+
+	.featureSection{
+		width: 100%;
+		margin: 1.5% 0% 15.5%;
+	}
+
+	.featureSection img{
+		width: 100%;
+	}
+	
+	.contact{
+		padding-bottom: 10%;
+	}
+}
+/*Media queries ends here*/
